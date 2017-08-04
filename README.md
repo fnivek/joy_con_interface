@@ -19,3 +19,7 @@ Secondary dependencies are thoes that are not necisary such as thoes used in the
 ## Install
 An install script is provided in the root directory.
 It installs all components needed to compile the code but does not install the binaries or scripts onto your machine.
+
+## Resources
+This is a list of resources I used to devolop this project:
+* [Nintendo Switch Reverse Engineering](https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering)

@@ -1,0 +1,4 @@
+#ifndef JOY_CON_INTERFACE_H
+#define JOY_CON_INTERFACE_H
+
+#endif  // JOY_CON_INTERFACE_H

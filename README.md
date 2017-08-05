@@ -23,3 +23,4 @@ It installs all components needed to compile the code but does not install the b
 ## Resources
 This is a list of resources I used to devolop this project:
 * [Nintendo Switch Reverse Engineering](https://github.com/dekuNukem/Nintendo_Switch_Reverse_Engineering)
+* [C driver for Joy-Cons](https://github.com/riking/joycon)

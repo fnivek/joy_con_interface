@@ -50,7 +50,11 @@ def main():
     while True:
         for i, socket in enumerate(sockets):
             print '-----------------------\nSocket %d' % (i,)
-            print socket.recv(1024)
+            socket.send(b'\x00\x01\x00')
+            raw_data = socket.recv(1024)
+            print raw_data.encode('hex')
+            formated_data = [ord(c) for c in raw_data]
+            print formated_data
 
     # Close all sockets
     for socket in sockets:
